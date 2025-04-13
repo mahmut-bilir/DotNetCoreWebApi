@@ -9,7 +9,7 @@ namespace MyFirstWebApi.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Merhaba Mahmut, hava güneşli :)");
+            return Ok("Hi Mahmut, it is sunny today!");
         }
     }
 }
